@@ -72,3 +72,19 @@
 - `git archive`: Cria um arquivo compactado de uma versão do projeto.
 - `git mv <arquivo1> <arquivo2>`: Renomeia ou move um arquivo.
 
+## Bônus
+
+No Git, ao usar comandos como `git status` ou `git diff`, é comum ver siglas que representam o estado dos arquivos em relação ao repositório. Aqui está o que significam as siglas mais comuns:
+
+- **A (Added)**: O arquivo foi adicionado à área de stage (staging area) e será incluído no próximo commit. É um arquivo novo que não estava no repositório anteriormente.
+- **M (Modified)**: O arquivo foi modificado após o último commit e ainda não foi adicionado à área de stage. Quando aparece como `M` à esquerda e à direita, pode significar:
+  - **` M`** (à esquerda): Modificado, mas não staged.
+  - **`M `** (à direita): Modificado e já staged.
+- **U (Untracked)**: O arquivo existe no diretório de trabalho, mas ainda não foi adicionado ao repositório. O Git não está rastreando este arquivo.
+- **D (Deleted)**: O arquivo foi removido do diretório de trabalho e está marcado para ser excluído no próximo commit.
+- **R (Renamed)**: O arquivo foi renomeado ou movido.
+- **C (Copied)**: O arquivo foi copiado, criando uma duplicata no repositório.
+- **??**: Indica um arquivo que não está sendo rastreado pelo Git (arquivo untracked).
+
+Essas siglas ajudam a identificar rapidamente o status dos arquivos e a tomar as ações necessárias para preparar os commits.
+
