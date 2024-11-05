@@ -88,3 +88,15 @@ No Git, ao usar comandos como `git status` ou `git diff`, é comum ver siglas qu
 
 Essas siglas ajudam a identificar rapidamente o status dos arquivos e a tomar as ações necessárias para preparar os commits.
 
+## Boas Práticas - Merge / Rebase 
+
+> Está atualizando sua branch pegando coisas do master?
+
+USE REBASE ( PULL - REBASE ) 
+
+> Terminou sua feature no branch e quer jogar para o master? 
+
+USE MERGE 
+
+
+
